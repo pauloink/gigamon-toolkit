@@ -16,7 +16,7 @@ The script sends predefined filtering rules to GigaVUE-FM, creates the map templ
 
 ## Requirements
 
-- Python 3
+- Python 3.10+
 - Access to GigaVUE-FM
 - Valid API credentials
 - Network access to the GigaVUE-FM API
@@ -47,7 +47,7 @@ source .venv/bin/activate
 Install the dependencies:
 
 ```bash
-pip install requests python-dotenv
+pip install -r requirements.txt
 ```
 
 ## Authentication
