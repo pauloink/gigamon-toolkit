@@ -14,11 +14,11 @@ GigaVUE-FM connects to the managed device and creates the configured map templat
 - Language: Python
 - Purpose: Automate and standardize map template creation on Gigamon devices
 
-### fmInventory
+### Inventory
 
 Retrieves the inventory of devices managed by GigaVUE-FM through its API, providing a centralized view of the Gigamon environment.
 
-- [Documentation](./fmInventory/)
+- [Documentation](./inventory/)
 - Language: Python
 - Purpose: Automate inventory collection for devices managed by GigaVUE-FM
 
