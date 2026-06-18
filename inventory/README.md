@@ -78,7 +78,7 @@ Never commit the `.env` file or real credentials.
 Before running the script, edit the GigaVUE-FM API address in `inventory.py`:
 
 ```python
-base_url = "https://your-gigavue-fm.example.com/api/v1.3"
+BASE_URL = "https://your-gigavue-fm.example.com/api/v1.3"
 ```
 
 Replace the example address with the URL of your GigaVUE-FM instance.
