@@ -140,6 +140,7 @@ def create_template(cluster_id):
         headers=headers,
         json=payload,
         verify=False,
+        timeout=30,
     )
 
     check_response(
@@ -155,6 +156,7 @@ def save_config(cluster_id):
         url,
         headers=headers,
         verify=False,
+        timeout=30,
     )
 
     check_response(
