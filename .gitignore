@@ -157,6 +157,13 @@ ENV/
 env.bak/
 venv.bak/
 
+# Ignore environment files in subdirectories
+**/.env
+**/*.env
+
+# Keep safe example files
+!.env.example
+!**/.env.example
 # Spyder project settings
 .spyderproject
 .spyproject
